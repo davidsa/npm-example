@@ -1,1 +1,7 @@
 language: node_js
+cache:
+  yarn: true
+  directories:
+    - ~/.npm
+    - ~/.yarn
+    - node_modules
