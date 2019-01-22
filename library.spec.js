@@ -23,11 +23,4 @@ describe("myCoolLogger", () => {
   it("should call JSON.stringify", () => {
     expect(JSON.stringify.callCount).to.equal(1)
   })
-
-  it("should call JSON.stringify with array, null and default spacing", () => {
-    const { args } = JSON.stringify.getCall(0)
-    expect(args[0]).to.equal(myArray)
-    expect(args[1]).to.equal(null)
-    expect(args[2]).to.equal(4)
-  })
 })
