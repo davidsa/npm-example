@@ -12,5 +12,3 @@ script:
   - yarn test
   - codecov
 node_js: "8.9.4"
-after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
