@@ -17,7 +17,7 @@ describe("myCoolLogger", () => {
   })
 
   it("should call console.log", () => {
-    expect(console.log.callCount).to.equal(1)
+    expect(console.log.callCount).to.equal(2)
   })
 
   it("should call JSON.stringify", () => {
