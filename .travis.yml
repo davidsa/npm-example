@@ -5,4 +5,9 @@ cache:
     - ~/.npm
     - ~/.yarn
     - node_modules
+install:
+  - npm install -g codecov
+script:
+  - yarn test
+  - codecov
 node_js: "8.9.4"
