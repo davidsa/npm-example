@@ -1,3 +1,3 @@
-const logger = require("./dist/bundle");
+const logger = require("./dist/bundle")
 
-logger(["Estefa", "Jose", "Kevin"]);
+logger(["Estefa", "Jose", "Kevin"])

@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("path")
 
 module.exports = {
   entry: "./library.js",
@@ -9,4 +9,4 @@ module.exports = {
   },
   mode: "production",
   target: "node"
-};
+}
