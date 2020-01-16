@@ -44,7 +44,7 @@
     "nyc": "^13.1.0",
     "prettier": "^1.15.3",
     "semantic-release": "^15.13.3",
-    "sinon": "^7.2.2",
+    "sinon": "^8.1.0",
     "travis-deploy-once": "^5.0.11",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
